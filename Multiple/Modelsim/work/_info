@@ -1,0 +1,587 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_1/Modelsim
+vadder_10bit
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 !s110 1608706273
+!i10b 1
+!s100 S<9[283cO0R8ELYYJlOVz0
+Iz3IXOc;dJYhOO4lVXR>Te2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 mult_tb_sv_unit
+S1
+Z4 dD:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/Modelsim
+Z5 w1607274234
+Z6 8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\adder.sv
+Z7 FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\adder.sv
+L0 40
+Z8 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z9 !s108 1608706273.000000
+Z10 !s107 D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\checkspecial.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\export_result.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\shift_right.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\shiftleft.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\complement2.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\find1.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\adder.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\mult24.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\mult.sv|D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/mult_tb.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/mult_tb.sv|
+!s101 -O0
+!i113 1
+Z12 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vadder_48bit
+R0
+R1
+!i10b 1
+!s100 ;KXnSHG<RT9eEjRIIiFXH3
+InScYgiPU67kF4^^@<=zj:1
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 63
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+vadder_5bit
+R0
+R1
+!i10b 1
+!s100 PgFIFQ4oj?TCYEzONzl2l2
+I@G<=SR1e=85B:Kf6Q]^]H3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+vadder_8bit
+R0
+R1
+!i10b 1
+!s100 >OHz@8WKkz_6m:a^^M>0?1
+IXO33^hm4DR^:1LERZc:OF0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+Z13 L0 19
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+vcheckspecial
+R0
+R1
+!i10b 1
+!s100 QYBaezTo:g=X:D[V3EA3K3
+IDMOl`2;eVFaaM0FR1_VV>2
+R2
+R3
+S1
+R4
+w1607274214
+8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\checkspecial.sv
+FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\checkspecial.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+vcompliment2_10bit
+R0
+R1
+!i10b 1
+!s100 87ZPo9Z7KBb`C01Y`S8S:1
+Ij7BagV879@V9S^UHZ8=4a3
+R2
+R3
+S1
+R4
+w1607274263
+8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\complement2.sv
+FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\complement2.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+vexport_result
+R0
+R1
+!i10b 1
+!s100 mU^DP^2onDN_DllX<_MKU2
+Ia;K<cZ@Rba9`1C5m4CHJP0
+R2
+R3
+S1
+R4
+w1608663976
+8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\export_result.sv
+FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\export_result.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+vFA
+R0
+R1
+!i10b 1
+!s100 a[EkUPRS=:>7jS=zjW7Ec2
+ID_fi8gh_a3YNNWJL>A`fK2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 122
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+n@f@a
+vfind1
+R0
+R1
+!i10b 1
+!s100 VdPmKa2RY>=Jj:6=jDPV]1
+IoQBQ6ge9XjgHYaYNbKJ?T2
+R2
+R3
+S1
+R4
+w1607274328
+8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\find1.sv
+FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\find1.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+vmult
+R0
+R1
+!i10b 1
+!s100 NC1h77ZcjB[^5o=n76g:>0
+I;<9Q2mmDmcg6_G[7d=8aP3
+R2
+R3
+S1
+R4
+w1608664625
+8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\mult.sv
+FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Multiple\mult.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+vmult24
+R0
+R1
+!i10b 1
+!s100 UKfDXaQ_>oH^X]YR4;gf]1
+IC5]2;C5NDIIz:>ZKWD^;c2
+R2
+!s105 mult24_sv_unit
+S1
+R4
+w1608665135
+8D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/mult24.sv
+FD:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/mult24.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/mult24.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/mult24.sv|
+!s101 -O0
+!i113 1
+R12
+vmultiplier_tb
+R0
+R1
+!i10b 1
+!s100 620N<2dWm^KPISRi`gm_S2
+I432NgZ;28@5kNJ?ho_@hV1
+R2
+R3
+S1
+R4
+w1608706253
+8D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/mult_tb.sv
+FD:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/mult_tb.sv
+L0 13
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+vshift1
+R0
+R1
+!i10b 1
+!s100 mDUdZ6I?>]UceHQ_^L``h2
+IXfVgl_FPAaFJS[80A4Pam1
+R2
+Z14 !s105 shift_right_sv_unit
+S1
+R4
+Z15 w1607274306
+Z16 8D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/shift_right.sv
+Z17 FD:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/shift_right.sv
+L0 64
+R8
+r1
+!s85 0
+31
+R9
+Z18 !s107 D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/shift_right.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/shift_right.sv|
+!s101 -O0
+!i113 1
+R12
+vshift16
+R0
+R1
+!i10b 1
+!s100 g;ZIWMZoTJ<8:I:QLnoBN0
+I4dFNe4D6J<FJjk?jCN=0B3
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 21
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
+!s101 -O0
+!i113 1
+R12
+vshift2
+R0
+R1
+!i10b 1
+!s100 iRR`HbX`hbQV@N^XaXmk^3
+Ic2@gh6Y;mbggZ^nC=WY5Z0
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 54
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
+!s101 -O0
+!i113 1
+R12
+vshift4
+R0
+R1
+!i10b 1
+!s100 oJ89M6cdPB0QdTEOg^m9d1
+I3@=ZS`b6TF5L_C2A9LIn51
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 43
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
+!s101 -O0
+!i113 1
+R12
+vshift8
+R0
+R1
+!i10b 1
+!s100 >5j3dECokTX_z1[ae>Q7L2
+I:G;2bVijC=b:5SY2`d]iI0
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 32
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
+!s101 -O0
+!i113 1
+R12
+vshift_right
+R0
+R1
+!i10b 1
+!s100 79NW1WcbSKGPoFa3mKlhn2
+InUVm4H13mM<:<F9AA7`Ag2
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
+!s101 -O0
+!i113 1
+R12
+vshiftleft
+R0
+R1
+!i10b 1
+!s100 1j0=JjzJ>OzoOV<U^VPi61
+Ine8B^dJzZX0ZEd]k6d<=l2
+R2
+Z20 !s105 shiftleft_sv_unit
+S1
+R4
+Z21 w1607274316
+Z22 8D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/shiftleft.sv
+Z23 FD:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/shiftleft.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z24 !s107 D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/shiftleft.sv|
+Z25 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/shiftleft.sv|
+!s101 -O0
+!i113 1
+R12
+vshiftleft1
+R0
+R1
+!i10b 1
+!s100 Sk4e1c_1QaD<An4kP^D:T3
+IQbMRA1Pc=Pb8`KO8zPSe>3
+R2
+R20
+S1
+R4
+R21
+R22
+R23
+L0 61
+R8
+r1
+!s85 0
+31
+R9
+R24
+R25
+!s101 -O0
+!i113 1
+R12
+vshiftleft16
+R0
+R1
+!i10b 1
+!s100 0OW_TD7nn;@jo:9oBFlOn0
+I;CkWAUm7zUS8h10G5^z9X2
+R2
+R20
+S1
+R4
+R21
+R22
+R23
+R13
+R8
+r1
+!s85 0
+31
+R9
+R24
+R25
+!s101 -O0
+!i113 1
+R12
+vshiftleft2
+R0
+R1
+!i10b 1
+!s100 20UCl^3;kRk3>cT6Z;lXe0
+IOmMA:V<BQOe3FbgVJgQ1[1
+R2
+R20
+S1
+R4
+R21
+R22
+R23
+L0 50
+R8
+r1
+!s85 0
+31
+R9
+R24
+R25
+!s101 -O0
+!i113 1
+R12
+vshiftleft4
+R0
+R1
+!i10b 1
+!s100 m@JHA>bkML3NkDC@`da]U2
+IM=mK24kod]hKb@OjaKZZo3
+R2
+R20
+S1
+R4
+R21
+R22
+R23
+L0 39
+R8
+r1
+!s85 0
+31
+R9
+R24
+R25
+!s101 -O0
+!i113 1
+R12
+vshiftleft8
+R0
+R1
+!i10b 1
+!s100 JRgSnMO1hCETNNXna]P_K3
+IlGaRToQ_O2iBd9FH9^0mU1
+R2
+R20
+S1
+R4
+R21
+R22
+R23
+L0 28
+R8
+r1
+!s85 0
+31
+R9
+R24
+R25
+!s101 -O0
+!i113 1
+R12
