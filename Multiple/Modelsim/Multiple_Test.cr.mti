@@ -59,13 +59,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	shift_right
 
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/checkspecial.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/checkspecial.sv
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module checkspecial
-
-Top level modules:
-	checkspecial
-
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/mult_tb.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/mult_tb.sv
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module mult
@@ -77,12 +70,19 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 -- Compiling module FA
 -- Compiling module find1
 -- Compiling module compliment2_10bit
--- Compiling module shiftleft
--- Compiling module shiftleft16
--- Compiling module shiftleft8
--- Compiling module shiftleft4
--- Compiling module shiftleft2
--- Compiling module shiftleft1
+-- Compiling module shiftleft24
+-- Compiling module shiftleft24_16
+-- Compiling module shiftleft24_8
+-- Compiling module shiftleft24_4
+-- Compiling module shiftleft24_2
+-- Compiling module shiftleft24_1
+-- Compiling module shiftleft48
+-- Compiling module shiftleft48_32
+-- Compiling module shiftleft48_16
+-- Compiling module shiftleft48_8
+-- Compiling module shiftleft48_4
+-- Compiling module shiftleft48_2
+-- Compiling module shiftleft48_1
 -- Compiling module shift_right
 -- Compiling module shift16
 -- Compiling module shift8
@@ -96,5 +96,12 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	adder_5bit
 	multiplier_tb
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/checkspecial.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/checkspecial.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module checkspecial
+
+Top level modules:
+	checkspecial
 
 } {} {}}

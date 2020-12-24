@@ -11,71 +11,71 @@ assign temp_in1 = {24'b0,in1};
 assign temp_mul[0]=temp_in1&{48{in2[0]}}; //bit 0
 //assign temp_mul0=temp_in1&{48{in2[0]}}; //bit0
 
-shiftleft s1(temp_in1&{48{in2[1]}}, 1, temp_mul[1]);
+shiftleft48 s1(temp_in1&{48{in2[1]}}, 1, temp_mul[1]);
 
 
-shiftleft s2(temp_in1&{48{in2[2]}}, 2, temp_mul[2]);
+shiftleft48 s2(temp_in1&{48{in2[2]}}, 2, temp_mul[2]);
 
 
-shiftleft s3(temp_in1&{48{in2[3]}}, 3, temp_mul[3]);
+shiftleft48 s3(temp_in1&{48{in2[3]}}, 3, temp_mul[3]);
 
 
-shiftleft s4(temp_in1&{48{in2[4]}}, 4, temp_mul[4]);
+shiftleft48 s4(temp_in1&{48{in2[4]}}, 4, temp_mul[4]);
 
 
-shiftleft s5(temp_in1&{48{in2[5]}}, 5, temp_mul[5]);
+shiftleft48 s5(temp_in1&{48{in2[5]}}, 5, temp_mul[5]);
 
 
-shiftleft s6(temp_in1&{48{in2[6]}}, 6, temp_mul[6]);
+shiftleft48 s6(temp_in1&{48{in2[6]}}, 6, temp_mul[6]);
 
 
-shiftleft s7(temp_in1&{48{in2[7]}}, 7, temp_mul[7]);
+shiftleft48 s7(temp_in1&{48{in2[7]}}, 7, temp_mul[7]);
 
 
-shiftleft s8(temp_in1&{48{in2[8]}}, 8, temp_mul[8]);
+shiftleft48 s8(temp_in1&{48{in2[8]}}, 8, temp_mul[8]);
 
 
-shiftleft s9(temp_in1&{48{in2[9]}}, 9, temp_mul[9]);
+shiftleft48 s9(temp_in1&{48{in2[9]}}, 9, temp_mul[9]);
 
 
-shiftleft s10(temp_in1&{48{in2[10]}}, 10, temp_mul[10]);
+shiftleft48 s10(temp_in1&{48{in2[10]}}, 10, temp_mul[10]);
 
-shiftleft s11(temp_in1&{48{in2[11]}}, 11, temp_mul[11]);
-
-
-shiftleft s12(temp_in1&{48{in2[12]}}, 12, temp_mul[12]);
+shiftleft48 s11(temp_in1&{48{in2[11]}}, 11, temp_mul[11]);
 
 
-shiftleft s13(temp_in1&{48{in2[13]}}, 13, temp_mul[13]);
+shiftleft48 s12(temp_in1&{48{in2[12]}}, 12, temp_mul[12]);
 
 
-shiftleft s14(temp_in1&{48{in2[14]}}, 14, temp_mul[14]);
+shiftleft48 s13(temp_in1&{48{in2[13]}}, 13, temp_mul[13]);
 
 
-shiftleft s15(temp_in1&{48{in2[15]}}, 15, temp_mul[15]);
+shiftleft48 s14(temp_in1&{48{in2[14]}}, 14, temp_mul[14]);
 
 
-shiftleft s16(temp_in1&{48{in2[16]}}, 16, temp_mul[16]);
+shiftleft48 s15(temp_in1&{48{in2[15]}}, 15, temp_mul[15]);
 
 
-shiftleft s17(temp_in1&{48{in2[17]}}, 17, temp_mul[17]);
+shiftleft48 s16(temp_in1&{48{in2[16]}}, 16, temp_mul[16]);
 
 
-shiftleft s18(temp_in1&{48{in2[18]}}, 18, temp_mul[18]);
+shiftleft48 s17(temp_in1&{48{in2[17]}}, 17, temp_mul[17]);
 
 
-shiftleft s19(temp_in1&{48{in2[19]}}, 19, temp_mul[19]);
+shiftleft48 s18(temp_in1&{48{in2[18]}}, 18, temp_mul[18]);
 
 
-shiftleft s20(temp_in1&{48{in2[20]}}, 20, temp_mul[20]);
+shiftleft48 s19(temp_in1&{48{in2[19]}}, 19, temp_mul[19]);
 
 
-shiftleft s21(temp_in1&{48{in2[21]}}, 21, temp_mul[21]);
+shiftleft48 s20(temp_in1&{48{in2[20]}}, 20, temp_mul[20]);
 
 
-shiftleft s22(temp_in1&{48{in2[22]}}, 22, temp_mul[22]);
+shiftleft48 s21(temp_in1&{48{in2[21]}}, 21, temp_mul[21]);
 
-shiftleft s23(temp_in1&{48{in2[23]}}, 23, temp_mul[23]);
+
+shiftleft48 s22(temp_in1&{48{in2[22]}}, 22, temp_mul[22]);
+
+shiftleft48 s23(temp_in1&{48{in2[23]}}, 23, temp_mul[23]);
 
 adder_48bit adder_48bit1(temp_mul[0], temp_mul[1], mul[1]);
 adder_48bit adder_48bit2(mul[1],temp_mul[2],mul[2]);

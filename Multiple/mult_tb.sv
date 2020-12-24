@@ -4,17 +4,19 @@
 `include "adder.sv"
 `include "find1.sv"
 `include "complement2.sv"
-`include "shiftleft.sv"
+`include "shiftleft24.sv"
+`include "shiftleft48.sv"
 `include "shift_right.sv"
 `include "export_result.sv"
 `include "checkspecial.sv"
 
 
 module multiplier_tb;
+logic [31:0]A,B;
    logic [31:0]result;
     logic underflow,overflow;
 
-    logic [31:0]A,B;
+    
 
 
     mult uut(.A(A),
