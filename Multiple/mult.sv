@@ -45,6 +45,7 @@ assign frac_out=temp_fracCPA[46:23]; //Lấy 24 bit frac sau phép nhân 24 bit
 find1 findbit1(.in(frac_out), .nshiftleft(nshiftleft));
 //Dịch trái 24 bit frac về dạng 1.xxx.....
 shiftleft shift_fracl(.in(frac_out), .nshiftleft(nshiftleft), .out(fracleft_before_result));
+//Dịch phải nếu nó là dạng 10,....
 shift_right shift_fracr(.in(frac_out), .nshift(5'b1), .out(fracright_before_result));
 
 assign frac_result = temp_fracCPA[47]?fracright_before_result[22:0]:fracleft_before_result[22:0];
