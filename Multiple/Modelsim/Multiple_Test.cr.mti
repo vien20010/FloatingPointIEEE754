@@ -39,6 +39,13 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	shiftleft48
 
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/mult.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/mult.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mult
+
+Top level modules:
+	mult
+
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/find1.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/find1.sv
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module find1
@@ -76,44 +83,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	shift_right
-
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/mult_tb.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/mult_tb.sv
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module mult
--- Compiling module mult24
--- Compiling module adder_5bit
--- Compiling module adder_8bit
--- Compiling module adder_10bit
--- Compiling module adder_48bit
--- Compiling module FA
--- Compiling module find1
--- Compiling module compliment2_10bit
--- Compiling module shiftleft24
--- Compiling module shiftleft24_16
--- Compiling module shiftleft24_8
--- Compiling module shiftleft24_4
--- Compiling module shiftleft24_2
--- Compiling module shiftleft24_1
--- Compiling module shiftleft48
--- Compiling module shiftleft48_32
--- Compiling module shiftleft48_16
--- Compiling module shiftleft48_8
--- Compiling module shiftleft48_4
--- Compiling module shiftleft48_2
--- Compiling module shiftleft48_1
--- Compiling module shift_right
--- Compiling module shift16
--- Compiling module shift8
--- Compiling module shift4
--- Compiling module shift2
--- Compiling module shift1
--- Compiling module export_result
--- Compiling module checkspecial
--- Compiling module multiplier_tb
-
-Top level modules:
-	adder_5bit
-	multiplier_tb
 
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/checkspecial.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple/checkspecial.sv
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
