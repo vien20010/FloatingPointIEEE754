@@ -1,0 +1,92 @@
+D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/tb_div.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/tb_div.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module div
+-- Compiling module adder_48bit
+-- Compiling module adder_10bit
+-- Compiling module adder_8bit
+-- Compiling module adder_6bit
+-- Compiling module FA
+-- Compiling module find1
+-- Compiling module compliment2_8bit
+-- Compiling module compliment2_10bit
+-- Compiling module compliment2_48bit
+-- Compiling module shiftleft
+-- Compiling module shiftleft16
+-- Compiling module shiftleft8
+-- Compiling module shiftleft4
+-- Compiling module shiftleft2
+-- Compiling module shiftleft1
+-- Compiling module export_result
+-- Compiling module checkspecial
+-- Compiling module division_tb
+
+Top level modules:
+	adder_6bit
+	division_tb
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/adder.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/adder.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module adder_48bit
+-- Compiling module adder_10bit
+-- Compiling module adder_8bit
+-- Compiling module adder_6bit
+-- Compiling module FA
+
+Top level modules:
+	adder_48bit
+	adder_10bit
+	adder_8bit
+	adder_6bit
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/export_result.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/export_result.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module export_result
+
+Top level modules:
+	export_result
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/shiftleft.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/shiftleft.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shiftleft
+-- Compiling module shiftleft16
+-- Compiling module shiftleft8
+-- Compiling module shiftleft4
+-- Compiling module shiftleft2
+-- Compiling module shiftleft1
+
+Top level modules:
+	shiftleft
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/compliment2.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/compliment2.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module compliment2_8bit
+-- Compiling module compliment2_10bit
+-- Compiling module compliment2_48bit
+
+Top level modules:
+	compliment2_8bit
+	compliment2_10bit
+	compliment2_48bit
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/find1.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/find1.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module find1
+
+Top level modules:
+	find1
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/checkspecial.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/checkspecial.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module checkspecial
+
+Top level modules:
+	checkspecial
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/div.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Hoa/div.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module div
+
+Top level modules:
+	div
+
+} {} {}}

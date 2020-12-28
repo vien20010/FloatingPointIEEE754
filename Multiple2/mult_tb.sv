@@ -1,7 +1,8 @@
 `timescale 1ns / 1ps
 `include "mult.sv"
-`include "mult24.sv"
+`include "mult24_booth.sv"
 `include "adder.sv"
+`include "sub.sv"
 `include "find1.sv"
 `include "complement2.sv"
 `include "shiftleft24.sv"
@@ -94,12 +95,8 @@ initial begin
 	A = 32'b00101111011111111101011011010001; // 
 	B = 32'b10101110001101100010010001010001; // 
 	#50;
+	$finish;
 
-end
-initial
-begin
-$vcdplusfile("tb.vpd");
-$vcdpluson();
 end
 
 endmodule

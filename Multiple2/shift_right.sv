@@ -6,7 +6,7 @@ input	[24:0]	in;
 input	[4:0]	nshift;
 output	[24:0]	out;
 
-logic 	[23:0]	temp1,temp2,temp3,temp4;
+logic 	[24:0]	temp1,temp2,temp3,temp4;
 
 shift16 shift_1(.in(in[23:0]), .ena(nshift[4]), .out(temp1));
 shift8  shift_2(.in(temp1), .ena(nshift[3]), .out(temp2));

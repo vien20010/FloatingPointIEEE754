@@ -1,15 +1,3 @@
-module mux4_1(in1, in2, in3, in4, select, out);
-
-input [47:0]in1, in2,in3,in4;
-input [1:0]select;
-output [47:0] out;
-
-case (sellect)
-    : 
-    default: 
-endcase
-
-endmodule
 
 //mux 8bit 
 //dung de so sanh exponent

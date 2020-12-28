@@ -8,7 +8,7 @@ output	[48:0]	out;
 
 logic 	[48:0]	temp1,temp2,temp3,temp4,temp5;
 
-shift32 shift_1(.in(in[48:0]), .ena(nshift[5]), .out(temp1));
+shift32 shift_0(.in(in[48:0]), .ena(nshift[5]), .out(temp1));
 shift16 shift_1(.in(temp1), .ena(nshift[4]), .out(temp2));
 shift8  shift_2(.in(temp2), .ena(nshift[3]), .out(temp3));
 shift4  shift_3(.in(temp3), .ena(nshift[2]), .out(temp4));

@@ -16,6 +16,7 @@ logic				temp_and,ena;
 logic		[4:0]	count_out;
 logic		[23:0]	temp_fracA,frac_out;
 logic		[47:0]	temp_frac;
+logic [49:0]temp_fracCPA_50bit;
 
 
 assign	signA = A[31];
@@ -37,7 +38,8 @@ adder_8bit	adder_exponent(.in1(expB), .in2(exp_temp), .S(exp_out), .Cout());
 
 ////////////////////////MULTIPLE SIGNIFICANDS///////////////////////////////////////////////////
 
-mult24 mul_significands(fracA,fracB,temp_fracCPA);
+mult24_booth mul_significands(fracA,fracB,temp_fracCPA_50bit);
+assign temp_fracCPA = temp_fracCPA_50bit[47:0];
 
 ////////////////////////NORMALIZE///////////////////////////////////////////////////////
 assign frac_out=temp_fracCPA[46:23]; //Lấy 24 bit frac sau phép nhân 24 bit
@@ -46,7 +48,9 @@ find1 findbit1(.in(frac_out), .nshiftleft(nshiftleft));
 //Dịch trái 24 bit frac về dạng 1.xxx..... nếu frac_out có dạng 1,.... hoặc 0,.....
 shiftleft24 shift_fracl(.in(frac_out), .nshiftleft(nshiftleft), .out(fracleft_before_result));
 //Dịch phải nếu nó là dạng 10,....
-shift_right shift_fracr(.in(frac_out), .nshift(5'b1), .out(fracright_before_result));
+//shift_right shift_fracr(.in(frac_out), .nshift(5'b1), .out(fracright_before_result));
+
+assign fracright_before_result = {1'b0,frac_out[23:1]};
 
 assign frac_result = temp_fracCPA[47]?fracright_before_result[22:0]:fracleft_before_result[22:0];
 //Tính toán cộng thêm hay trừ đi exponent
