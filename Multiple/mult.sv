@@ -50,7 +50,7 @@ shift_right shift_fracr(.in(frac_out), .nshift(5'b1), .out(fracright_before_resu
 
 assign frac_result = temp_fracCPA[47]?fracright_before_result[22:0]:fracleft_before_result[22:0];
 //Tính toán cộng thêm hay trừ đi exponent
-compliment2_10bit compli2_exponent(.in({5'b0,nshiftleft}),.out(shiftleftout));
+complement2_10bit comple2_exponent(.in({5'b0,nshiftleft}),.out(shiftleftout));
 //Nếu có dạng 10,.... thì 
 assign exp_add = temp_fracCPA[47]?10'd1:shiftleftout;
 adder_10bit	add_2(.in1(exp_add), .in2({2'b00,exp_out}), .S(temp_exp), .Cout());

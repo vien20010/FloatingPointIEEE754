@@ -146,6 +146,13 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	shift_right49
 
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple2/mult.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple2/mult.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mult
+
+Top level modules:
+	mult
+
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple2/sub.sv {1 {vlog -work work -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Multiple2/sub.sv
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module FS

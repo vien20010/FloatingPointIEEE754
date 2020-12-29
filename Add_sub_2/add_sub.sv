@@ -97,6 +97,6 @@ assign overflow = ~temp_exp[9]&(temp_exp[8]|(&({temp_exp[7:0]})));
 
 assign exp_result = temp_exp[8]?8'd0:(checkzero?8'd0:temp_exp[7:0]);
 
-export_result export1(.in1(A), .in2(B), .temp_result({sign_result,exp_result,frac_result}), .toobig({exA_ST_exB,checktoobig}), .result(result));
+export_result export1(.in1(A), .in2({signB,B[30:0]}), .temp_result({sign_result,exp_result,frac_result}), .toobig({exA_ST_exB,checktoobig}), .result(result));
 
 endmodule
