@@ -70,3 +70,15 @@ adder_8bit add_1(.in1(not_in), .in2(8'd1), .S(out), .Cout());
 endmodule
 
 ///////////////////////////////////////////////////////////////////////
+
+module complement2_6bit(in, out);
+
+input	[5:0]	in;
+output	[5:0]	out;
+
+logic	[5:0]	not_in;
+
+assign not_in = ~in;
+
+adder_6bit add_1(.in1(not_in), .in2(6'd1), .S(out), .Cout());
+endmodule

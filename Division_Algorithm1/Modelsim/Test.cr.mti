@@ -1,4 +1,25 @@
-D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/tb_div.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/tb_div.sv
+D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/adder.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/adder.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module adder_48bit
+-- Compiling module adder_10bit
+-- Compiling module adder_8bit
+-- Compiling module adder_6bit
+-- Compiling module FA
+
+Top level modules:
+	adder_48bit
+	adder_10bit
+	adder_8bit
+	adder_6bit
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/export_result.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/export_result.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module export_result
+
+Top level modules:
+	export_result
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/tb_div.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/tb_div.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module div
 -- Compiling module adder_48bit
@@ -24,27 +45,6 @@ Top level modules:
 	adder_6bit
 	division_tb
 
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/export_result.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/export_result.sv
-Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module export_result
-
-Top level modules:
-	export_result
-
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/adder.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/adder.sv
-Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module adder_48bit
--- Compiling module adder_10bit
--- Compiling module adder_8bit
--- Compiling module adder_6bit
--- Compiling module FA
-
-Top level modules:
-	adder_48bit
-	adder_10bit
-	adder_8bit
-	adder_6bit
-
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/shiftleft.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/shiftleft.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module shiftleft
@@ -57,13 +57,6 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 Top level modules:
 	shiftleft
 
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/find1.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/find1.sv
-Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module find1
-
-Top level modules:
-	find1
-
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/compliment2.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/compliment2.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module compliment2_8bit
@@ -75,12 +68,12 @@ Top level modules:
 	compliment2_10bit
 	compliment2_48bit
 
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/div.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/div.sv
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/find1.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/find1.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module div
+-- Compiling module find1
 
 Top level modules:
-	div
+	find1
 
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/checkspecial.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/checkspecial.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
@@ -88,5 +81,12 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 
 Top level modules:
 	checkspecial
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/div.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/div.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module div
+
+Top level modules:
+	div
 
 } {} {}}

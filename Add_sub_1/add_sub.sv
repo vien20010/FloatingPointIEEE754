@@ -31,6 +31,8 @@ assign	expB	= B[30:23];
 assign	fracA	= {1'B1,A[22:0]};
 assign	fracB	= {1'B1,B[22:0]};
 
+
+/////////////////////SIGNÌICABD ALIGNMENT//////////////////////////
 //So sánh 2 exponent 
 //Kết quả output:
 //nshift - Chênh lệch giữa 2 exponent

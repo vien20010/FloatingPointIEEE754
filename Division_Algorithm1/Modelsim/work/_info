@@ -7,470 +7,471 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/STUDY/201_semester/Advanced_Digital_Techniques/DuyTan_Source/ktsnc/final/FPAU/division32/Modelsim
+Z0 dD:/STUDY/201_semester/Advanced_Digital_Techniques/DuyTan_Source/ktsnc/final/FPAU/division32/Modelsim
 T_opt
 !s110 1609261561
 Vl5j@DTW]>VMKe35B<JnNB3
 04 11 4 work division_tb fast 0
 =1-20474778aefb-5feb61f9-e4-164
 o-quiet -auto_acc_if_foreign -work work +acc
-Z0 tCvgOpt 0
+Z1 tCvgOpt 0
 n@_opt
 OL;O;10.7;67
+R0
 vadder_10bit
-Z1 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
-Z2 !s110 1609261543
+Z2 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+Z3 !s110 1609689154
 !i10b 1
 !s100 C5:283P?^dk`8nj[81XRf3
 IbL;Q@:Y16:JJA[f`4ZW;E1
-Z3 VDg1SIo80bB@j0V0VzS_@n1
-Z4 !s105 tb_div_sv_unit
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 tb_div_sv_unit
 S1
-Z5 dD:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/Modelsim
-Z6 w1609143583
-Z7 8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\adder.sv
-Z8 FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\adder.sv
+Z6 dD:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/Modelsim
+Z7 w1609143583
+Z8 8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\adder.sv
+Z9 FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\adder.sv
 L0 62
-Z9 OL;L;10.7;67
+Z10 OL;L;10.7;67
 r1
 !s85 0
 31
-Z10 !s108 1609261543.000000
-Z11 !s107 D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\checkspecial.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\export_result.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\shiftleft.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\compliment2.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\find1.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\adder.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\div.sv|D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/tb_div.sv|
+Z11 !s108 1609689154.000000
+!s107 D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\checkspecial.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\export_result.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\shiftleft.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\compliment2.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\find1.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\adder.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\div.sv|D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/tb_div.sv|
 Z12 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/tb_div.sv|
 !i113 0
 Z13 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R0
-vadder_48bit
 R1
+vadder_48bit
 R2
+R3
 !i10b 1
 !s100 Qg_:M0bMidPmM64X:1G`Z1
 I;0U:ckPAGfengMUiO`4@a2
-R3
 R4
-S1
 R5
+S1
 R6
 R7
 R8
-L0 1
 R9
+L0 1
+R10
 r1
 !s85 0
 31
-R10
 R11
+Z14 !s107 D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\checkspecial.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\export_result.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\shiftleft.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\compliment2.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\find1.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\adder.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\div.sv|D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/tb_div.sv|
 R12
 !i113 0
 R13
-R0
-vadder_6bit
 R1
+vadder_6bit
 R2
+R3
 !i10b 1
 !s100 cJNBzo22HZlGVin6=XWHi1
 IXRJW]S68mXafk]0ck79j81
-R3
 R4
-S1
 R5
+S1
 R6
 R7
 R8
-L0 106
 R9
+L0 106
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vadder_8bit
 R1
+vadder_8bit
 R2
+R3
 !i10b 1
 !s100 W;S;8;?UN^I;nSM7VCM7Z0
 IV<8]QIi5=0PDD3KV8k[Po1
-R3
 R4
-S1
 R5
+S1
 R6
 R7
 R8
-L0 85
 R9
+L0 85
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vcheckspecial
 R1
+vcheckspecial
 R2
+R3
 !i10b 1
 !s100 ><n35eRchH2^?me>zIj9Q3
 I>O?`S2Id_]>?kcznOWOAK2
-R3
 R4
-S1
 R5
+S1
 R6
+R7
 8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\checkspecial.sv
 FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\checkspecial.sv
 L0 1
-R9
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vcompliment2_10bit
 R1
+vcompliment2_10bit
 R2
+R3
 !i10b 1
 !s100 F8[6gmj1RR3g03E??CiVQ1
 IaCNMbk<cdWAL6jC]H94Gk2
-R3
 R4
-S1
 R5
-Z14 w1609143579
-Z15 8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\compliment2.sv
-Z16 FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\compliment2.sv
+S1
+R6
+Z15 w1609143579
+Z16 8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\compliment2.sv
+Z17 FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\compliment2.sv
 L0 15
-R9
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vcompliment2_48bit
 R1
+vcompliment2_48bit
 R2
+R3
 !i10b 1
 !s100 `6_0fiZn3nl0BB^9;SI6l2
 I=PJ8DG:kTQ^_FO6Y6aD633
-R3
 R4
-S1
 R5
-R14
+S1
+R6
 R15
 R16
+R17
 L0 29
-R9
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vcompliment2_8bit
 R1
+vcompliment2_8bit
 R2
+R3
 !i10b 1
 !s100 0[_?C>geNgII[1l[bCShn0
 IPRoD`C9e=T4ZY3mUnTa3=1
-R3
 R4
-S1
 R5
-R14
+S1
+R6
 R15
 R16
+R17
 L0 1
-R9
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vdiv
 R1
+vdiv
 R2
+R3
 !i10b 1
 !s100 T;@^1WVU=9VV8m9XShg;=2
 IHfQ^_Acgf]eBF77@I1?e42
-R3
 R4
-S1
 R5
+S1
 R6
+R7
 8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\div.sv
 FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\div.sv
 L0 1
-R9
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vdivision_tb
 R1
+vdivision_tb
 R2
+R3
 !i10b 1
 !s100 B6NQgo17SaC?<8eSGRf6C0
 IiLF<8_3J6en:Uo:?_lK@j3
-R3
 R4
-S1
 R5
+S1
+R6
 w1609224463
 8D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/tb_div.sv
 FD:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Division_Algorithm1/tb_div.sv
 L0 11
-R9
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vexport_result
 R1
+vexport_result
 R2
+R3
 !i10b 1
 !s100 z21j_HT0ZXKho0^T5@H>[1
 I9dGj9H3TGU?`]Nk]z_jKG1
-R3
 R4
-S1
 R5
+S1
+R6
 w1609143580
 8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\export_result.sv
 FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\export_result.sv
 L0 1
-R9
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vFA
 R1
+vFA
 R2
+R3
 !i10b 1
 !s100 No>@0f]oF@KOl78:V];Kf2
 ICmF8C^jm9lWD_kVF8^3jV0
-R3
 R4
-S1
 R5
+S1
 R6
 R7
 R8
-L0 125
 R9
+L0 125
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
+R1
 n@f@a
 vfind1
-R1
 R2
+R3
 !i10b 1
 !s100 binC]]YAlHbn:H>J3gh3E1
 ILB:52O`G]ROKPVbR40O613
-R3
 R4
-S1
 R5
+S1
+R6
 w1609143326
 8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\find1.sv
 FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\find1.sv
 L0 1
-R9
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vshiftleft
 R1
+vshiftleft
 R2
+R3
 !i10b 1
 !s100 hEPoF9Q;SCPA:4e3@O7Sm3
 Ij8PlYXe4c3:X[f``^2fPP2
-R3
 R4
-S1
 R5
+S1
 R6
-Z17 8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\shiftleft.sv
-Z18 FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\shiftleft.sv
+R7
+Z18 8D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\shiftleft.sv
+Z19 FD:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Division_Algorithm1\shiftleft.sv
 L0 1
-R9
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vshiftleft1
 R1
+vshiftleft1
 R2
+R3
 !i10b 1
 !s100 goV`RWWGANJQPHDWQM4<40
 I^RV?2bP^D0nzRSBPI[=Lm2
-R3
 R4
-S1
 R5
+S1
 R6
-R17
+R7
 R18
+R19
 L0 63
-R9
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vshiftleft16
 R1
+vshiftleft16
 R2
+R3
 !i10b 1
 !s100 FgHCEi[bj93oJHf?;^g`>1
 ISWd^TH;?Z>gT>NcPLYV9D0
-R3
 R4
-S1
 R5
+S1
 R6
-R17
+R7
 R18
+R19
 L0 19
-R9
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vshiftleft2
 R1
+vshiftleft2
 R2
+R3
 !i10b 1
 !s100 A@V1T;PN`Tn?N@QH7`UlY0
 IZVzQbTHn3=BPKX6@]3iAH2
-R3
 R4
-S1
 R5
+S1
 R6
-R17
+R7
 R18
+R19
 L0 52
-R9
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vshiftleft4
 R1
+vshiftleft4
 R2
+R3
 !i10b 1
 !s100 OGP<2U3iOU>@kF>L@TPVL2
 IJNn4ljP:_P=7[LZ>gLoM91
-R3
 R4
-S1
 R5
+S1
 R6
-R17
+R7
 R18
+R19
 L0 41
-R9
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
-vshiftleft8
 R1
+vshiftleft8
 R2
+R3
 !i10b 1
 !s100 J=mAfcZX2ODnU_cegPP7F2
 IBF^i42@O@zm56]1l_Em?U1
-R3
 R4
-S1
 R5
+S1
 R6
-R17
+R7
 R18
+R19
 L0 30
-R9
+R10
 r1
 !s85 0
 31
-R10
 R11
+R14
 R12
 !i113 0
 R13
-R0
+R1

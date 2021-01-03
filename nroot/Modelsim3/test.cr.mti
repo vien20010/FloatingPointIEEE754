@@ -7,6 +7,7 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module adder_10bit
 -- Compiling module adder_9bit
 -- Compiling module adder_8bit
+-- Compiling module adder_6bit
 -- Compiling module adder_5bit
 -- Compiling module FA
 -- Compiling module find1
@@ -15,6 +16,7 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module complement2_10bit
 -- Compiling module complement2_9bit
 -- Compiling module complement2_8bit
+-- Compiling module complement2_6bit
 -- Compiling module shiftleft24
 -- Compiling module shiftleft24_16
 -- Compiling module shiftleft24_8
@@ -50,6 +52,7 @@ Top level modules:
 	complement2_25bit
 	complement2_9bit
 	complement2_8bit
+	complement2_6bit
 	export_result_addsub
 	export_result_division
 	mult
@@ -102,13 +105,6 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 Top level modules:
 	compare_8bit
 
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ROOT_REAL.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ROOT_REAL.sv
-Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module ROOT_REAL
-
-Top level modules:
-	ROOT_REAL
-
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/complement2.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/complement2.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module complement2_48bit
@@ -116,6 +112,7 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module complement2_10bit
 -- Compiling module complement2_9bit
 -- Compiling module complement2_8bit
+-- Compiling module complement2_6bit
 
 Top level modules:
 	complement2_48bit
@@ -123,6 +120,14 @@ Top level modules:
 	complement2_10bit
 	complement2_9bit
 	complement2_8bit
+	complement2_6bit
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ROOT_REAL.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ROOT_REAL.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module ROOT_REAL
+
+Top level modules:
+	ROOT_REAL
 
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/checkspecial.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/checkspecial.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
@@ -154,12 +159,14 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module complement2_10bit
 -- Compiling module complement2_9bit
 -- Compiling module complement2_8bit
+-- Compiling module complement2_6bit
 -- Compiling module adder_48bit
 -- Compiling module adder_26bit
 -- Compiling module adder_25bit
 -- Compiling module adder_10bit
 -- Compiling module adder_9bit
 -- Compiling module adder_8bit
+-- Compiling module adder_6bit
 -- Compiling module adder_5bit
 -- Compiling module FA
 -- Compiling module shiftleft
@@ -178,22 +185,18 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 
 Top level modules:
 	complement2_48bit
+	complement2_6bit
 	adder_5bit
 	export_result_multiple
 	export_result_division
 	add_sub_tb
 
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/shiftleft24_mult.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/shiftleft24_mult.sv
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/mult24.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/mult24.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module shiftleft24
--- Compiling module shiftleft24_16
--- Compiling module shiftleft24_8
--- Compiling module shiftleft24_4
--- Compiling module shiftleft24_2
--- Compiling module shiftleft24_1
+-- Compiling module mult24
 
 Top level modules:
-	shiftleft24
+	mult24
 
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/export_result.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/export_result.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
@@ -207,12 +210,17 @@ Top level modules:
 	export_result_multiple
 	export_result_division
 
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/mult24.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/mult24.sv
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/shiftleft24_mult.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/shiftleft24_mult.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module mult24
+-- Compiling module shiftleft24
+-- Compiling module shiftleft24_16
+-- Compiling module shiftleft24_8
+-- Compiling module shiftleft24_4
+-- Compiling module shiftleft24_2
+-- Compiling module shiftleft24_1
 
 Top level modules:
-	mult24
+	shiftleft24
 
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/shiftleft.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/shiftleft.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
@@ -226,6 +234,53 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 Top level modules:
 	shiftleft
 
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/add_sub.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/add_sub.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module compare_8bit
+-- Compiling module mux_8bit
+-- Compiling module mux_25bit
+-- Compiling module shift_right
+-- Compiling module shift16
+-- Compiling module shift8
+-- Compiling module shift4
+-- Compiling module shift2
+-- Compiling module shift1
+-- Compiling module complement2_48bit
+-- Compiling module complement2_25bit
+-- Compiling module complement2_10bit
+-- Compiling module complement2_9bit
+-- Compiling module complement2_8bit
+-- Compiling module complement2_6bit
+-- Compiling module adder_48bit
+-- Compiling module adder_26bit
+-- Compiling module adder_25bit
+-- Compiling module adder_10bit
+-- Compiling module adder_9bit
+-- Compiling module adder_8bit
+-- Compiling module adder_6bit
+-- Compiling module adder_5bit
+-- Compiling module FA
+-- Compiling module shiftleft
+-- Compiling module shiftleft16
+-- Compiling module shiftleft8
+-- Compiling module shiftleft4
+-- Compiling module shiftleft2
+-- Compiling module shiftleft1
+-- Compiling module checkspecial
+-- Compiling module export_result_addsub
+-- Compiling module export_result_multiple
+-- Compiling module export_result_division
+-- Compiling module find1
+-- Compiling module add_sub
+
+Top level modules:
+	complement2_48bit
+	complement2_6bit
+	adder_5bit
+	export_result_multiple
+	export_result_division
+	add_sub
+
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/mux.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/mux.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module mux_8bit
@@ -235,25 +290,6 @@ Top level modules:
 	mux_8bit
 	mux_25bit
 
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/FA/FA_8.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/FA/FA_8.sv
-Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module FA_8
-
-Top level modules:
-	FA_8
-
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/shift_right.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/shift_right.sv
-Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module shift_right
--- Compiling module shift16
--- Compiling module shift8
--- Compiling module shift4
--- Compiling module shift2
--- Compiling module shift1
-
-Top level modules:
-	shift_right
-
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/div.sv {2 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/div.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module adder_48bit
@@ -262,6 +298,7 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module adder_10bit
 -- Compiling module adder_9bit
 -- Compiling module adder_8bit
+-- Compiling module adder_6bit
 -- Compiling module adder_5bit
 -- Compiling module FA
 -- Compiling module find1
@@ -270,6 +307,7 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module complement2_10bit
 -- Compiling module complement2_9bit
 -- Compiling module complement2_8bit
+-- Compiling module complement2_6bit
 -- Compiling module shiftleft_division
 -- Compiling module shiftleft16_division
 -- Compiling module shiftleft8_division
@@ -290,10 +328,30 @@ Top level modules:
 	adder_5bit
 	complement2_25bit
 	complement2_9bit
+	complement2_6bit
 	shiftleft_division
 	export_result_addsub
 	export_result_multiple
 	div
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/shift_right.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/shift_right.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module shift_right
+-- Compiling module shift16
+-- Compiling module shift8
+-- Compiling module shift4
+-- Compiling module shift2
+-- Compiling module shift1
+
+Top level modules:
+	shift_right
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/FA/FA_8.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/FA/FA_8.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module FA_8
+
+Top level modules:
+	FA_8
 
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/TAYLOR/TAYLOR_LN.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/TAYLOR/TAYLOR_LN.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
@@ -322,13 +380,6 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 Top level modules:
 	shiftleft48
 
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/EXP_REAL.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/EXP_REAL.sv
-Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module EXP_REAL
-
-Top level modules:
-	EXP_REAL
-
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/mult_tb.sv {2 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/mult_tb.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module mult24
@@ -338,6 +389,7 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module adder_10bit
 -- Compiling module adder_9bit
 -- Compiling module adder_8bit
+-- Compiling module adder_6bit
 -- Compiling module adder_5bit
 -- Compiling module FA
 -- Compiling module find1
@@ -346,6 +398,7 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module complement2_10bit
 -- Compiling module complement2_9bit
 -- Compiling module complement2_8bit
+-- Compiling module complement2_6bit
 -- Compiling module shiftleft24
 -- Compiling module shiftleft24_16
 -- Compiling module shiftleft24_8
@@ -383,16 +436,39 @@ Top level modules:
 	complement2_25bit
 	complement2_9bit
 	complement2_8bit
+	complement2_6bit
 	export_result_addsub
 	export_result_division
 	multiplier_tb
 
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/TAYLOR/TAYLOR_EXP.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/TAYLOR/TAYLOR_EXP.sv
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/EXP_REAL.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/EXP_REAL.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module TAYLOR_EXP
+-- Compiling module EXP_REAL
 
 Top level modules:
-	TAYLOR_EXP
+	EXP_REAL
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/adder.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/adder.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module adder_48bit
+-- Compiling module adder_26bit
+-- Compiling module adder_25bit
+-- Compiling module adder_10bit
+-- Compiling module adder_9bit
+-- Compiling module adder_8bit
+-- Compiling module adder_6bit
+-- Compiling module adder_5bit
+-- Compiling module FA
+
+Top level modules:
+	adder_48bit
+	adder_26bit
+	adder_25bit
+	adder_10bit
+	adder_9bit
+	adder_8bit
+	adder_6bit
+	adder_5bit
 
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/tb_div.sv {2 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/tb_div.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
@@ -402,6 +478,7 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module adder_10bit
 -- Compiling module adder_9bit
 -- Compiling module adder_8bit
+-- Compiling module adder_6bit
 -- Compiling module adder_5bit
 -- Compiling module FA
 -- Compiling module find1
@@ -410,6 +487,7 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module complement2_10bit
 -- Compiling module complement2_9bit
 -- Compiling module complement2_8bit
+-- Compiling module complement2_6bit
 -- Compiling module shiftleft_division
 -- Compiling module shiftleft16_division
 -- Compiling module shiftleft8_division
@@ -432,29 +510,17 @@ Top level modules:
 	adder_5bit
 	complement2_25bit
 	complement2_9bit
+	complement2_6bit
 	shiftleft_division
 	export_result_addsub
 	export_result_multiple
 	division_tb
 
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/adder.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/ALU/adder.sv
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/TAYLOR/TAYLOR_EXP.sv {1 {vlog -work work -vopt -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/nroot/TAYLOR/TAYLOR_EXP.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module adder_48bit
--- Compiling module adder_26bit
--- Compiling module adder_25bit
--- Compiling module adder_10bit
--- Compiling module adder_9bit
--- Compiling module adder_8bit
--- Compiling module adder_5bit
--- Compiling module FA
+-- Compiling module TAYLOR_EXP
 
 Top level modules:
-	adder_48bit
-	adder_26bit
-	adder_25bit
-	adder_10bit
-	adder_9bit
-	adder_8bit
-	adder_5bit
+	TAYLOR_EXP
 
 } {} {}}

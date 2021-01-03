@@ -9,10 +9,10 @@ z2
 cModel Technology
 Z0 dD:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_1/Modelsim
 T_opt
-!s110 1609261245
-VgAA19UJzCb;`5j:]0g;iO1
+!s110 1609688496
+V=SQ83FB^Mo:7_W`9I_=OJ1
 04 10 4 work add_sub_tb fast 0
-=1-20474778aefb-5feb60bd-e9-27f8
+=1-20474778aefb-5ff1e5af-387-2208
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
@@ -20,7 +20,7 @@ OL;O;10.7;67
 R0
 vadd_sub
 Z2 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
-Z3 !s110 1609261259
+Z3 !s110 1609688523
 !i10b 1
 !s100 Hce>A;?Az^1g<:GW[4i4]0
 I7XlmC[<JJeO^=:OK1fcIM1
@@ -36,7 +36,7 @@ Z7 OL;L;10.7;67
 r1
 !s85 0
 31
-Z8 !s108 1609261258.000000
+Z8 !s108 1609688522.000000
 Z9 !s107 D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Add_sub_2\find1.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Add_sub_2\checkspecial.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Add_sub_2\export_result.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Add_sub_2\shiftleft.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Add_sub_2\adder2.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Add_sub_2\complement2.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Add_sub_2\shift_right.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Add_sub_2\mux.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Add_sub_2\compare_8bit.sv|D:\STUDY\201_semester\Advanced_Digital_Techniques\Project\Add_sub_2\add_sub.sv|D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_2/add_sub_tb.sv|
 Z10 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_2/add_sub_tb.sv|
 !i113 0
@@ -46,13 +46,13 @@ vadd_sub_tb
 R2
 R3
 !i10b 1
-!s100 mZLeIY?N[ccb5Rcm?2:R;0
-I7l9dgnLf920]gVC8I=RHa2
+!s100 `l3HaJ<FgIcB5RhlPf^[S1
+I6;AP9MP6bgD=hW=VSa:db2
 R4
 R5
 S1
 R6
-w1609261181
+w1609265598
 8D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_2/add_sub_tb.sv
 FD:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_2/add_sub_tb.sv
 L0 4
@@ -84,7 +84,7 @@ R7
 r1
 !s85 0
 31
-Z16 !s108 1609261259.000000
+Z16 !s108 1609688523.000000
 Z17 !s107 D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_2/adder2.sv|
 Z18 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_2/adder2.sv|
 !i113 0

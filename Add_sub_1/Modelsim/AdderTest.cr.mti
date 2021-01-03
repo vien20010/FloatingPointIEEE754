@@ -62,6 +62,25 @@ Top level modules:
 	complement2_9bit
 	complement2_8bit
 
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_1/shift_right.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_1/shift_right.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module shift_right
+-- Compiling module shift16
+-- Compiling module shift8
+-- Compiling module shift4
+-- Compiling module shift2
+-- Compiling module shift1
+
+Top level modules:
+	shift_right
+
+} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_1/checkspecial.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_1/checkspecial.sv
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module checkspecial
+
+Top level modules:
+	checkspecial
+
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_1/add_sub_tb.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_1/add_sub_tb.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module compare_8bit
@@ -97,25 +116,6 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 
 Top level modules:
 	add_sub_tb
-
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_1/shift_right.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_1/shift_right.sv
-Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module shift_right
--- Compiling module shift16
--- Compiling module shift8
--- Compiling module shift4
--- Compiling module shift2
--- Compiling module shift1
-
-Top level modules:
-	shift_right
-
-} {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_1/checkspecial.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_1/checkspecial.sv
-Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module checkspecial
-
-Top level modules:
-	checkspecial
 
 } {} {}} D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_1/export_result.sv {1 {vlog -work work -vopt -sv -stats=none D:/STUDY/201_semester/Advanced_Digital_Techniques/Project/Add_sub_1/export_result.sv
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017

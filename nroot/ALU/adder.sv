@@ -206,6 +206,25 @@ endmodule
 
 //////////////////////////////////////////////////////////////////
 
+module adder_6bit(in1, in2, S, Cout);
+
+input	[5:0]in1,in2;
+output [5:0]S;
+output Cout;
+
+logic	[5:1]	temp_c;
+
+FA FA_0(.x(in1[0]), .y(in2[0]), .cin(1'b0), .s(S[0]), .cout(temp_c[1]));
+FA FA_1(.x(in1[1]), .y(in2[1]), .cin(temp_c[1]), .s(S[1]), .cout(temp_c[2]));
+FA FA_2(.x(in1[2]), .y(in2[2]), .cin(temp_c[2]), .s(S[2]), .cout(temp_c[3]));
+FA FA_3(.x(in1[3]), .y(in2[3]), .cin(temp_c[3]), .s(S[3]), .cout(temp_c[4]));
+FA FA_4(.x(in1[4]), .y(in2[4]), .cin(temp_c[4]), .s(S[4]), .cout(temp_c[5]));
+FA FA_5(.x(in1[5]), .y(in2[5]), .cin(temp_c[5]), .s(S[5]), .cout(Cout));
+
+endmodule
+
+//////////////////////////////////////////////////////////////////
+
 module adder_5bit(in1, in2, S, Cout);
 
 input	[4:0]	in1,in2;
